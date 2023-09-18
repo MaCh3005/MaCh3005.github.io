@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerD{
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.5) 0%, rgba(251, 194, 235, 0.5) 100%), url(../images/portadaD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body { 
+    
+    background-position: center;
+
+}
+
+.dibujos h2 {
+    text-align: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.search {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+
+
+.search-txt {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.search-txt i {
+    font-size: 40px;
+    color: #ee2a75;
+    text-align: center;
+
+}
+
+.search-txt h2 {
+    color: #111111;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.movies {
+    padding: 50px 0 150px 0;
+}
+
+.movies h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.icons {
+    padding: 0 350px 50px 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    font-size: 25px;
+    color: #111111;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons i:hover {
+    color: #ee2a75;
+    background-color: #FEFEFE;
+    box-shadow: 0 0 20PX rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+@media(max-width:991px) {
+    body {
+        min-height: 0vh;
+    }
+
+    .search {
+        pad:  30px 30px 0 30px;
+    }
+
+    .movies {
+        padding: 30px;
+    }
+
+    .icons {
+        padding: 30px;
+    }
+}
